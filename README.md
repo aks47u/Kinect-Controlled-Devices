@@ -26,15 +26,14 @@ Kinect-Controlled-Devices
             <tr>
                 <td width="319">
                     <p align="center">
-                        <img src="file:///c:\Temp\msohtmlclip1\01\clip_image002.gif" height="140" width="298"/>
+                        <img src="http://www.derivative.ca/wiki088/images/c/ce/KinectForWindows.jpg" height="140" width="298"/>
                     </p>
                 </td>
                 <td width="319">
                     <p align="center">
                         <img
                             src="http://www.journaldugeek.com/files/2013/07/mindstorms-lego-mindstorms-nxt-2-0-8547-4.jpg"
-                            alt="http://www.journaldugeek.com/files/2013/07/mindstorms-lego-mindstorms-nxt-2-0-8547-4.jpg"
-                            height="228"
+                          height="228"
                             width="298"
                         />
                     </p>
