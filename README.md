@@ -3,6 +3,8 @@ Kinect-Controlled-Devices
 
 <h5>Demonstrate IT competition to design reusable course content for NUI Maynooth Open Days</h5>
 
+<a href="http://imgur.com/FIqStkk"><img src="http://i.imgur.com/FIqStkk.png" title="Hosted by imgur.com"/></a>
+<a href="http://imgur.com/cf4MhLz"><img src="http://i.imgur.com/cf4MhLz.png" title="Hosted by imgur.com"/></a>
 <div>
     <div>
     </div>
