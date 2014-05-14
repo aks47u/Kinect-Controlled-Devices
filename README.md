@@ -32,8 +32,8 @@ Kinect-Controlled-Devices
                 <td width="319">
                     <p align="center">
                         <img
-                            src="file:///c:\Temp\msohtmlclip1\01\clip_image004.gif"
-                            alt="http://makezineblog.files.wordpress.com/2013/07/giantarduino.jpg"
+                            src="http://www.journaldugeek.com/files/2013/07/mindstorms-lego-mindstorms-nxt-2-0-8547-4.jpg"
+                            alt="http://www.journaldugeek.com/files/2013/07/mindstorms-lego-mindstorms-nxt-2-0-8547-4.jpg"
                             height="228"
                             width="298"
                         />
