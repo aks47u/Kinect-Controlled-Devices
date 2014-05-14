@@ -1,0 +1,41 @@
+<Gestures GestureResetTimeout="1000">
+
+  <!-- Speed Up -->
+  <!-- <Gesture Description="Speed Up" MaxExecutionTime="2000" MappedKeyCode="ADD">
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="ShoulderLeft" EndingRelationship="AboveAndLeft" BeginningRelationship="BelowAndLeft" />
+  </Gesture> -->
+
+  <!-- Slow Down -->
+  <!-- <Gesture Description="Slow Down" MaxExecutionTime="2000" MappedKeyCode="SUBTRACT">
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="HipCenter" EndingRelationship="Below" BeginningRelationship="Above" />
+  </Gesture> -->
+
+  <!-- Forward -->
+  <Gesture Description="Forward" MaxExecutionTime="2000" MappedKeyCode="NUMPAD8">
+    <GestureComponent FirstJoint="WristRight" SecondJoint="ShoulderRight" EndingRelationship="Above" BeginningRelationship="Below" />
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="ShoulderLeft" EndingRelationship="Above" BeginningRelationship="Below" />
+  </Gesture>
+
+  <!-- Yield -->
+  <Gesture Description="Yield" MaxExecutionTime="2000" MappedKeyCode="NUMPAD5">
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="WristRight" EndingRelationship="RightOf" BeginningRelationship="LeftOf" />
+    <!-- <GestureComponent FirstJoint="WristRight" SecondJoint="WristLeft" EndingRelationship="LeftOf" BeginningRelationship="RightOf" /> -->
+  </Gesture>
+
+  <!-- Reverse -->
+  <Gesture Description="Reverse" MaxExecutionTime="2000" MappedKeyCode="NUMPAD2">
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="HipLeft" EndingRelationship="Below" BeginningRelationship="Above" />
+    <GestureComponent FirstJoint="WristRight" SecondJoint="HipRight" EndingRelationship="Below" BeginningRelationship="Above" />
+  </Gesture>
+
+  <!-- Left -->
+  <Gesture Description="Left" MaxExecutionTime="2000" MappedKeyCode="NUMPAD4">
+    <GestureComponent FirstJoint="WristRight" SecondJoint="HipCenter" EndingRelationship="LeftOf" BeginningRelationship="RightOf" />
+  </Gesture>
+
+  <!-- Right -->
+  <Gesture Description="Right" MaxExecutionTime="2000" MappedKeyCode="NUMPAD6">
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="HipCenter" EndingRelationship="RightOf" BeginningRelationship="LeftOf" />
+  </Gesture>
+
+</Gestures>
