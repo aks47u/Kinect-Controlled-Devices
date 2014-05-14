@@ -1,0 +1,61 @@
+<Gestures GestureResetTimeout="1000">
+
+  <!-- Increase Speed -->
+  <Gesture Description="Increase Speed" MaxExecutionTime="2000" MappedKeyCode="ADD">
+    <GestureComponent FirstJoint="Head" SecondJoint="HipRight" EndingRelationship="RightOf" BeginningRelationship="LeftOf" />
+  </Gesture>
+  
+  <!-- Decrease Speed -->
+  <Gesture Description="Decrease Speed" MaxExecutionTime="2000" MappedKeyCode="SUBTRACT">
+    <GestureComponent FirstJoint="Head" SecondJoint="HipLeft" EndingRelationship="LeftOf" BeginningRelationship="RightOf" />
+  </Gesture>
+  
+  <!-- Forward both -->
+  <Gesture Description="Forward both" MaxExecutionTime="2000" MappedKeyCode="NUMPAD8">
+    <GestureComponent FirstJoint="WristRight" SecondJoint="ShoulderRight" EndingRelationship="Above" BeginningRelationship="Below" />
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="ShoulderLeft" EndingRelationship="Above" BeginningRelationship="Below" />
+  </Gesture>
+
+  <!-- Brake both -->
+  <Gesture Description="Brake Right" MaxExecutionTime="2000" MappedKeyCode="NUMPAD6">
+    <GestureComponent FirstJoint="WristRight" SecondJoint="HipCenter"   EndingRelationship="LeftOf" BeginningRelationship="RightOf" />
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="HipCenter"   EndingRelationship="RightOf" BeginningRelationship="LeftOf" />
+  </Gesture>
+
+  <!-- Reverse both -->
+  <Gesture Description="Reverse both" MaxExecutionTime="2000" MappedKeyCode="NUMPAD2">
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="HipLeft" EndingRelationship="Below" BeginningRelationship="Above" />
+    <GestureComponent FirstJoint="WristRight" SecondJoint="HipRight" EndingRelationship="Below" BeginningRelationship="Above" />
+  </Gesture>
+
+  <!-- Forward right -->
+  <Gesture Description="Forward right" MaxExecutionTime="2000" MappedKeyCode="NUMPAD9">
+    <GestureComponent FirstJoint="WristRight" SecondJoint="ShoulderRight" EndingRelationship="Above" BeginningRelationship="Below" />
+  </Gesture>
+  
+  <!-- Brake right -->
+  <Gesture Description="Brake Right" MaxExecutionTime="2000" MappedKeyCode="NUMPAD6">
+    <GestureComponent FirstJoint="WristRight" SecondJoint="HipCenter"   EndingRelationship="LeftOf" BeginningRelationship="RightOf" />
+  </Gesture>
+
+  <!-- Reverse right -->
+  <Gesture Description="Reverse right" MaxExecutionTime="2000" MappedKeyCode="NUMPAD3">
+    <GestureComponent FirstJoint="WristRight" SecondJoint="HipRight" EndingRelationship="Below" BeginningRelationship="Above" />
+  </Gesture>
+  
+  <!-- Forward left -->
+  <Gesture Description="Forward left" MaxExecutionTime="2000" MappedKeyCode="NUMPAD7">
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="ShoulderLeft" EndingRelationship="Above" BeginningRelationship="Below" />
+  </Gesture>
+
+  <!-- Brake left -->
+  <Gesture Description="Brake Left" MaxExecutionTime="2000" MappedKeyCode="NUMPAD4">
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="HipCenter"   EndingRelationship="RightOf" BeginningRelationship="LeftOf" />
+  </Gesture>
+
+  <!-- Reverse left -->
+  <Gesture Description="Reverse left" MaxExecutionTime="2000" MappedKeyCode="NUMPAD1">
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="HipLeft" EndingRelationship="Below" BeginningRelationship="Above" />
+  </Gesture>
+
+</Gestures>
