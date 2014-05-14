@@ -8,14 +8,15 @@ Kinect-Controlled-Devices
 <div>
     <div>
     </div>
+    <br>
     <p>
-        Demonstrate IT 2014 Project Report
+        <b>Demonstrate IT 2014 Project Report</b>
     </p>
     <p>
         for
     </p>
     <p>
-        Kinect Controlled Devices
+        <b>Kinect Controlled Devices</b>
     </p>
     <p>
         Version 3.0
