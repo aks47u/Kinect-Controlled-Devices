@@ -3,7 +3,7 @@ Kinect-Controlled-Devices
 
 <h5>Demonstrate IT competition to design reusable course content for NUI Maynooth Open Days</h5>
 
-<img src="http://i.imgur.com/FIqStkk.png" height="566" width="400"/><font color="white">____</font> 
+<img src="http://i.imgur.com/FIqStkk.png" height="566" width="400"/><style="color:white">____</style> 
 <img src="http://i.imgur.com/cf4MhLz.png" height="566" width="400"/>
 <div>
     <div>
